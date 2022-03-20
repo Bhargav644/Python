@@ -3,7 +3,7 @@ def findPivot(list, start, end):
     i = start-1
     for j in range(start, end):
         if(assumedPivot > list[j]):
-        i += 1
+            i += 1
         list[i], list[j] = list[j], list[i]
     list[i+1], list[end] = list[end], list[i+1]
     return i+1
