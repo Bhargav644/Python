@@ -5,7 +5,7 @@ def insertionSort(list):
         while(j >= 0 and list[j] > current):
             list[j+1] = list[j]
             j -= 1
-            list[j+1] = current
+        list[j+1] = current
     return list
 
 
